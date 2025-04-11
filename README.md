@@ -53,5 +53,10 @@ sudo -u {你的用户} bash bbs_beautiful_pure.sh
 
 ```
 
+## 📥 国内下载加速（解决 GitHub 连接慢的问题）
+
+如果你因为众所周知的原因下载失败，推荐使用以下加速地址：
+- [ghproxy 加速](https://ghfast.top/https://github.com/DongyangHu/bbs-dontstarve-server/releases/download/v1.0.0/bbs-dontstarve-server-1.0.0.tar.gz)
+
 ## LICENSE
 [LICENSE](LICENSE)
