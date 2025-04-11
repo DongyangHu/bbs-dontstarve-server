@@ -675,6 +675,12 @@ function config_server() {
 # 启动服务器
 function start_server() {
     print_info "INFO" "检测服务器状态"
+    # 是否安装游戏
+    if [ ! -e "$game_install_dir/bin/dontstarve_dedicated_server_nullrenderer" ]; then
+        print_info "ERROR" "服务器未安装,请先安装服务器!"
+        return 0
+    fi
+
     local pid
     pid=$(pgrep -f "$master_ps_key")
     if [ -n "$pid" ]; then
