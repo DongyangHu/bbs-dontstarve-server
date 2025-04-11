@@ -32,6 +32,7 @@
 curl -L https://github.com/DongyangHu/bbs-dontstarve-server/releases/download/v1.0.0/bbs-dontstarve-server-1.0.0.tar.gz | tar -xz && bash bbs-dontstarve-server/bbs_beautiful.sh
 
 ```
+后续使用，只需要运行`./bbs_beautiful.sh`即可
 
 ### 权限控制
 如果需要控制权限，请使用`bbs-dontstarve-server-pure-{version}.tar.gz`版本, 该版本拆分了`依赖安装`和`服务器管理`
@@ -52,6 +53,7 @@ sudo bash prepare_libs.sh
 sudo -u {你的用户} bash bbs_beautiful_pure.sh
 
 ```
+后续使用，只需要运行`./bbs_beautiful_pure.sh`即可
 
 ## 📥 国内下载加速（解决 GitHub 连接慢的问题）
 
