@@ -1470,4 +1470,13 @@ function bbs_run() {
     main
 }
 
-bbs_run
+if [[ "$1" == "update" ]]; then
+    print_info "INFO" "开始更新服务器"
+    install_server
+    print_info "SUCCESS" "更新完成"
+    print_info "INFO" "开始启动服务器"
+    start_server
+    print_info "SUCCESS" "启动完成"
+else
+    bbs_run
+fi
