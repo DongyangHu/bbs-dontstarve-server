@@ -272,8 +272,8 @@ function kill_process() {
 
 # 停止服务器
 function stop_server() {
-    kill_process "$master_ps_key"
     kill_process "$caves_ps_key"
+    kill_process "$master_ps_key"
 }
 
 # 验证服务器启动状态
