@@ -1467,9 +1467,10 @@ function bbs_run() {
     print_info "INFO" "初始化服务器参数"
     prepare_args
     print_info "SUCCESS" "初始化完成"
-    main
 }
 
+
+bbs_run
 if [[ "$1" == "update" ]]; then
     print_info "INFO" "开始更新服务器"
     install_server
@@ -1478,5 +1479,5 @@ if [[ "$1" == "update" ]]; then
     start_server
     print_info "SUCCESS" "启动完成"
 else
-    bbs_run
+    main
 fi
