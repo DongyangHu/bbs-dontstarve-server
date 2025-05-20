@@ -25,7 +25,7 @@
 
 
 ## 快速使用
-### 一键启动
+### 一键启动（root或者具有sudo权限用户）
 从 [Release](https://github.com/DongyangHu/bbs-dontstarve-server/releases) 下载脚本`bbs-dontstarve-server-{version}.tar.gz`版本, 解压后运行即可
 如下为一键下载启动脚本:
 ```
